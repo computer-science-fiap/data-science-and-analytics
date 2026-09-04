@@ -43,6 +43,14 @@ Os dados estão distribuídos em cinco arquivos CSV, um para cada ano do períod
 
 Os arquivos possuem a mesma estrutura e podem ser concatenados verticalmente. A coluna `year` identifica o ano de referência de cada registro.
 
+### Fonte e download dos dados
+
+Os arquivos originais podem ser baixados no dataset disponibilizado pelo Kaggle:
+
+[Retail Store Dataset - Kaggle](https://www.kaggle.com/datasets/nishchay331/retail-store)
+
+Após o download, coloque os arquivos CSV na pasta `checkpoint_1/data/`. Os dados brutos não são versionados no GitHub, pois estão incluídos no `.gitignore` devido ao seu tamanho.
+
 ### Dicionário de dados
 
 | Coluna | Descrição |
